@@ -1,0 +1,29 @@
+Simple Java programs:
+
+***************************************************************************
+1. prime or not
+
+public class Practice {
+	
+	public static void main(String args[]) {
+		int num = 22273;
+	int c = 2;
+	boolean isprime = true;
+	while (c*c<=num) { //square root method
+		if(num%c==0) {
+			isprime = false;			
+		}
+		
+			c=c+1;
+	}
+	if(isprime) {
+		System.out.println("prime number");
+	}
+	else {
+		System.out.println(" not prime number");
+	}
+	}
+
+}
+
+***************************************************************************
